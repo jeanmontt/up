@@ -1,0 +1,188 @@
+.logo {
+  max-width: 20rem;
+  text-align: center;
+  margin: 0 auto 1.875rem;
+}
+
+.logo img {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin-bottom: 1rem;
+}
+
+.logo h1 {
+  color: var(--color-up);
+  font-size: 1.5rem;
+  line-height: 2.15rem;
+  font-family: 'Dosis', sans-serif;
+}
+
+#about {
+  max-width: 21.875rem;
+  margin: 0 auto;
+}
+
+#about h1 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.about .about-p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-bottom: 0.625rem;
+}
+
+.about p big {
+  font-size: 1.5rem;
+  color: var(--color-up);
+}
+
+.about img {
+  position: absolute;
+  visibility: hidden;
+  width: 1rem;
+}
+
+#curriculo {
+  max-width: 21.875rem;
+  margin: 0 auto 1rem;
+}
+
+#curriculo img {
+  height: 9.375rem;
+  width: 7rem;
+  border-radius: 10px;
+}
+
+.gabi img {
+  float: left;
+  margin-right: 1rem;
+}
+
+.gabi p,
+.lu p {
+  padding: 10px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.gabi p big,
+.lu p big {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.lu img {
+  float: right;
+  margin-left: 1rem;
+}
+
+#we-do {
+  max-width: 21.875rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#we-do h1 {
+  width: 12.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-up);
+  margin-bottom: 1rem;
+}
+
+#we-do p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: center;
+}
+
+#we-do p big {
+  font-size: 1.625rem;
+}
+
+#we-believe {
+  max-width: 21.875rem;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto 2rem;
+  padding: 0 0.5rem;
+}
+
+#we-believe img {
+  max-width: 99%;
+}
+
+#testimonials {
+  max-width: 21.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 0.625rem;
+}
+
+#testimonials h1 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.625rem;
+}
+
+#testimonials .card {
+  background-color: rgba(99, 99, 99, 0.808);
+  border-radius: 18px;
+  padding: 0.625rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#testimonials .card p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+#testimonials .card p:first-child {
+  margin-bottom: 0.5rem;
+}
+
+#testimonials .card p big {
+  font-weight: bold;
+}
+
+#testimonials .card p strong {
+  color: var(--color-up);
+  font-weight: normal;
+}
+
+#testimonials .card a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+#testimonials .card a:hover {
+  color: var(--color-up);
+  transition: 300ms;
+}

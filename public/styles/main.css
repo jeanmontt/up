@@ -1,0 +1,153 @@
+@import "https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Indie+Flower&family=Roboto:wght@400;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap";
+
+:root {
+    --color-up: #f05a21;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #434343, #000000);  
+    background: linear-gradient(to right, #434343, #000000); 
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    max-width: 400px;
+}
+
+header {
+  width: 100%;
+  padding: 1.25rem 0.625rem;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_header img {
+  width: 1.563rem;
+  margin-right: 0.625rem;
+}
+
+.logo_header img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
+  transition: 300ms;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  list-style-type: none;
+  border-right: 1px solid white;
+  padding: 0 0.5rem 0 0.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.menu li:first-child {
+  padding-left: 0;
+}
+
+.menu li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.menu a {
+  font-size: 0.8rem;
+  line-height: 1.26rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: var(--color-up);
+  transition: 300ms;
+}
+
+.midias {
+  position: absolute;
+  visibility: hidden;
+}
+
+footer {
+  width: 100vw;
+  padding: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .social-medias {
+  align-items: center;
+  height: 1.25rem;
+  margin: 0 auto 1.25rem;
+}
+
+footer .social-medias a img {
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+footer .social-medias a img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 300ms;
+}
+
+footer .social-medias a {
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+footer .social-medias a:first-child {
+  margin-left: 0;
+}
+
+footer .social-medias a:last-child {
+  margin-right: 0;
+}
+
+footer .city, 
+.email, 
+.tel {
+  margin: 0 auto 0.625rem;
+  font-size: 0.8rem;
+  line-height: 1.26rem;
+}
+
+footer .email a, 
+.tel a {
+  color: white; 
+  text-decoration: none;
+}
+
+footer .email a:hover,
+.tel a:hover {
+  color: var(--color-up);
+  transition: 300ms;
+}
+
+footer .tel {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .tel a:first-child {
+  margin-bottom: 0.625rem;
+}
