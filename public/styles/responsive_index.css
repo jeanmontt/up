@@ -1,0 +1,245 @@
+@media (min-width: 500px) {
+  .logo {
+    max-width: 20rem;
+  }
+  
+  .logo img {
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+  
+  #about {
+    max-width: 25rem;
+  }
+  
+  #curriculo {
+    max-width: 25rem;
+  }
+ 
+  #we-do {
+    max-width: 25rem;
+  }
+    
+  #testimonials {
+    max-width: 25rem;
+  }
+}
+
+
+@media (min-width: 540px) {
+  .logo {
+    max-width: 22rem;
+  }
+  
+  .logo img {
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+  
+  #about {
+    max-width: 30rem;
+  }
+  
+  #curriculo {
+    max-width: 30rem;
+  }
+ 
+  #we-do {
+    max-width: 30rem;
+  }
+  
+  #testimonials {
+    max-width: 30rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    max-width: 30rem;
+  }
+
+  .logo img {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+    line-height: 2.65rem;
+  }
+
+  #about {
+    max-width: 40rem;
+  }
+
+  #about h1 {
+    font-size: 1.5rem;
+    line-height: 2.15rem;
+  }
+
+  .about .about-p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  .about p big {
+    font-size: 1.625rem;
+  }
+
+  #curriculo {
+    max-width: 40rem;
+  }
+  
+  #curriculo img {
+    height: 12.5rem;
+    width: 10.125rem;
+  }
+
+  .gabi p,
+  .lu p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  .gabi p big,
+  .lu p big {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  #we-do {
+    max-width: 40rem;
+  }
+  
+  #we-do h1 {
+    font-size: 2.375rem;
+  }
+  
+  #we-do p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    text-align: center;
+  }
+  
+  #we-do p big {
+    font-size: 1.625rem;
+  }
+
+  #testimonials {
+    max-width: 40rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1.563rem;
+  }
+
+  #about {
+    max-width: 48rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .about p {
+    text-align: center;
+  }
+
+  .about img {
+    position: relative;
+    visibility: visible;
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+    border-radius: 40px 8px 40px 8px;
+  }
+
+  #curriculo {
+    max-width: 48rem;
+    display: block;
+  }
+  
+  #curriculo img {
+    height: 15.625rem;
+    width: 11.61rem;
+  }
+
+  .gabi img,
+  .lu img {
+    float: none;
+  }
+
+  .gabi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .gabi img {
+    margin-right: 4.4rem;
+  }
+
+  .lu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .lu img {
+    margin-left: 4.4rem;
+  }
+
+  #we-do {
+    max-width: 48rem;
+    margin-bottom: 5rem;
+  }
+  
+  #we-do h1 {
+    font-size: 2.375rem;
+  }
+  
+  #we-do p {
+    width: 31.25rem;
+  }
+
+  #we-believe {
+    margin-bottom: 4.4rem;
+    padding: 0.2rem 0;
+    background-color: white;
+  }
+
+  #we-believe img {
+    width: 99%;
+  }
+  
+  #testimonials {
+    max-width: 100%;
+    background-image: url("../assets/testimonials.jpeg"); 
+    background-size: 100% 100%;
+    display: inline-block;
+    padding: 40px;
+  }
+
+  #testimonials h1 {
+    font-size: 1.875rem;
+  }
+
+  #testimonials .cards {
+    margin: 0 100px 0 100px;
+  background-color: rgba(99, 99, 99, 0.548);
+  }
+
+  #testimonials .card p {
+    font-size: 1rem;
+  }
+}
