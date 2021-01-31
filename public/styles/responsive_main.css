@@ -99,6 +99,27 @@
   }
 
   footer p {
-    
+    font-size: 0.9rem;
+    line-height: 1.26rem;
+  }
+
+  footer a {
+    font-size: 0.9rem;
+    line-height: 1.26rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo_header img {
+    width: 3.125rem;
+  }
+
+  .menu a {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
+  .midias a {
+    line-height: 1rem;
   }
 }
